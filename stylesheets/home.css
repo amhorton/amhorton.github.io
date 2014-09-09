@@ -1,0 +1,87 @@
+/*reset*/
+
+body, div, h1, section, h3, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit
+}
+
+a:hover {
+  text-decoration: none;
+  color: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*clearfix*/
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*body styles*/
+
+body {
+  background: #dde6e9;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*big container sizing and positioning*/
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+/*site title styles*/
+
+.site-title {
+  font-size: 90px;
+  text-align: center;
+  color: #2d342c;
+}
+
+/*content area styles*/
+
+.content-area {
+  width: 500px;
+  margin: 600px auto;
+
+}
+
+.content-area-title {
+  color: #2d342c;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.content {
+  color: #2D342C;
+}
+
+/*sidebar styles*/
+
+.sidebar {
+  width: 100px;
+  border-right: 5px solid #2d342c;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  padding: 30px;
+}
