@@ -77,6 +77,10 @@ body {
   margin-top: 100px;
 }
 
+.content-area:last-child {
+	margin-bottom: 100px;
+}
+
 .content-area-title {
   color: #2d342c;
   text-align: center;
