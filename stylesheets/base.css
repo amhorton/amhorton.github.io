@@ -1,0 +1,41 @@
+/*reset*/
+
+body, div, h1, section, h3, ul, li, header {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit
+}
+
+a:hover {
+  color: none;
+	font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+/*clearfix*/
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*body styles*/
+
+body {
+  background: #dde6e9;
+  font-family: 'Raleway', sans-serif;
+}
