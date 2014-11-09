@@ -1,0 +1,13 @@
+.story {
+	margin: 100px auto;
+	padding: 100px;
+}
+
+.story > p {
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin: 120px 0;
+	
+	word-wrap: break-word;
+	text-indent: 0;
+}
